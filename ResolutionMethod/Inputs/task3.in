@@ -1,0 +1,11 @@
+S ~R P
+~S ~Q R
+~P ~S R
+~R ~S P
+R ~Q S
+S ~Q ~R
+~P S Q
+P Q R
+S ~P ~R
+~P ~S ~R
+~R ~S ~Q
