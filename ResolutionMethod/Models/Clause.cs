@@ -127,7 +127,14 @@ namespace ResolutionMethod
             return false;
         }
 
-        public override int GetHashCode() => Variables.Sum(v => v.GetHashCode());
+        public override int GetHashCode()
+        {
+            int sum = 0;
+
+            Variables.ForEach(v => sum += v.GetHashCode());
+
+            return sum;
+        }
 
         public override string ToString()
         {

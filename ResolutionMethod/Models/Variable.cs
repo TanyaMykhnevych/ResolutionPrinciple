@@ -40,14 +40,8 @@ namespace ResolutionMethod
             return false;
         }
 
-        public override int GetHashCode()
-        {
-            return Negated ? -(Name.GetHashCode()) : Name.GetHashCode();
-        }
+        public override int GetHashCode() => Negated ? -(Name.GetHashCode()) : Name.GetHashCode();
 
-        public override string ToString()
-        {
-            return Negated ? $"~{Name}" : Name;
-        }
+        public override string ToString() => Negated ? $"~{Name}" : Name;
     }
 }
