@@ -12,9 +12,9 @@ namespace ResolutionMethod
             List<Clause> clauses = new List<Clause>();
             try
             {
-                //using (StreamReader reader = new StreamReader(@"Inputs/task1.in"))
-                //using (StreamReader reader = new StreamReader(@"Inputs/task2.in"))
-                using (StreamReader reader = new StreamReader(@"Inputs/task3.in"))
+                //using (StreamReader reader = new StreamReader(@"../../../Inputs/task1.in"))
+                //using (StreamReader reader = new StreamReader(@"../../../Inputs/task2.in"))
+                using (StreamReader reader = new StreamReader(@"../../../Inputs/task3.in"))
                 {
                     // Parser
                     Clause c; // Clause to be added
