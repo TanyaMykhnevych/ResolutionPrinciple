@@ -10,7 +10,6 @@ namespace ResolutionMethod
             PerformResolution(clauses);
         }
 
-
         /**
          * Main part of the program which runs the algorithm to resolve clauses.
          */
